@@ -6,7 +6,6 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea, Stack } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { fCurrency } from "../utils";
-import { BASE_URL } from "../app/config";
 
 function ProductCard({ product }) {
   const navigate = useNavigate();
